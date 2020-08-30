@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_searchRepository"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="Search Repository"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_repository"-->
+<!--        android:icon="@drawable/ic_baseline_markunread_mailbox_24"-->
+<!--        android:title="Repository"/>-->
+<!--    <item-->
+<!--        android:id="@+id/nav_branch"-->
+<!--        android:icon="@drawable/ic_baseline_assignment_24"-->
+<!--        android:title="Branch"/>-->
+
+</menu>

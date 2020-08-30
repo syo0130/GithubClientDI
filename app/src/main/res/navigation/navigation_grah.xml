@@ -1,0 +1,18 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/nav_searchRepository">
+
+    <fragment android:id="@+id/nav_searchRepository"
+        android:name="jp.shosakaguchi.githubclientdi.user.UserFragment"
+        android:label="User"/>
+
+    <fragment android:id="@+id/nav_repository"
+        android:name="jp.shosakaguchi.githubclientdi.repository.RepositoryFragment"
+        android:label="Repository"/>
+
+    <fragment android:id="@+id/nav_branch"
+        android:name="jp.shosakaguchi.githubclientdi.branch.BranchFragment"
+        android:label="Branch"/>
+
+</navigation>
